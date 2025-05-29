@@ -8,19 +8,39 @@
     <title>UOC Boilerplate</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
+    <include src="./views/navbar.html"></include>
+
+<!-- <div class="py-8 px-8 max-w-sm mx-auto space-y-2 bg-white rounded-xl shadow-lg sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:gap-x-6">
+  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="https://picsum.photos/200/300?random=2" alt="Woman's Face" />
+  <div class="text-center space-y-2 sm:text-left">
+    <div class="space-y-0.5">
+      <p class="text-lg text-black font-semibold">
+        Erin Lindford
+      </p>
+      <p class="text-slate-500 font-medium">
+        Product Engineer
       </p>
     </div>
+    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+  </div>
+</div> -->
+
+
+<div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="https://picsum.photos/200/300?random=2" alt="" />
+  <div class="space-y-2 text-center sm:text-left">
+    <div class="space-y-0.5">
+      <p class="text-lg font-semibold text-black">Erin Lindford</p>
+      <p class="font-medium text-gray-500">Product Engineer</p>
+    </div>
+    <button class="btn-primary border bg-sky-500 hover:bg-sky-700">Save changes</button>
+    <button class="border rounded-full border-purple-500 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700">
+      Message
+    </button>
+  </div>
+</div>
+
+
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
