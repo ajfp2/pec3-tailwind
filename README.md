@@ -4,6 +4,9 @@ UOC Boilerplate is a starter template for the HTML and CSS Tools courses from th
 
 This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
 
+### Iconos tailwind
+- https://heroicons.com/
+
 ## Requirements
 
 [Node.js](http://nodejs.org/) >= 18.x
