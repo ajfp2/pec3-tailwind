@@ -20,10 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', event => {
         links.forEach(li => {
           li.classList.remove('active');
+          li.classList.add('activeNO');
+          
         });
         const name = link.getAttribute('data-url');
-        event.preventDefault();                        
+        event.preventDefault();
         link.classList.add('active');
+        link.classList.remove('activeNO');
         render(name);
       });
   });
