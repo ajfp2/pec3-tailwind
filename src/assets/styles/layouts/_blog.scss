@@ -1,0 +1,68 @@
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+.parte{
+    margin-left: 6lvh;
+    margin-right: 6lvh;
+    line-height: 3svh;
+    .lead {
+        font-size: 1.5rem;
+        line-height: 3.5vh;
+    }
+    @media (max-width: $mqMaxWidth) {
+		margin: 1rem;
+	}    
+}
+
+.lista-blog {
+    margin: 0 0 0 2em;
+    &__list {       
+        counter-reset: li;
+        list-style: none;     
+    }
+    
+    &__item{
+        position: relative;
+        padding: .4em .4em .4em 2em;
+        margin: .5em 0;
+        text-decoration: none;
+        border-radius: .3em;
+    }
+    
+    &__item:hover{
+        background-color: $blanco;
+    }
+    
+    &__item:before{
+        content: counter(li);
+        counter-increment: li;
+        position: absolute; 
+        left: -2em;
+        margin-top: -0.5em;
+        height: 2.5em;
+        width: 2.5em;
+        line-height: 2em;
+        border: .1em solid $uoc-corporate;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 2em;
+    } 
+}
+
+figure:has(figcaption) {
+	width: 100%;
+	margin: 1.5rem auto;
+}
+
+figcaption {
+    opacity:  0.65;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 2vh;
+}
+
+.image-blog {
+    border-radius: 10px;
+    width: 100%;
+}
