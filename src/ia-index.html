@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooking Contest 2024 Edition</title>
+  <link href="./assets/styles/main.scss" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-white p-8 fixed w-full top-0 left-0">
+        <nav class="flex justify-between items-center max-w-7xl mx-auto">
+            <div class="text-xl font-bold">Cooking Contest 2024 edition</div>
+            <ul class="flex space-x-4 ml-auto">
+                <li><a href="#" class="bg-black text-white font-bold px-4 py-2 rounded">Home</a></li>
+                <li><a href="#" class="hover:text-blue-500 font-semibold">The Contest</a></li>
+                <li><a href="#" class="hover:text-blue-500 font-semibold">Recipes</a></li>
+                <li><a href="#" class="hover:text-blue-500 font-semibold">Contestants</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-4 max-w-7xl mx-auto mt-20">
+
+    <!-- Título y subtítulo -->
+    <section class="my-8 text-center">
+        <h1 class="text-3xl font-bold text-black">Contestants</h1>
+        <h2 class="text-xl text-gray-600">This section describes the recipes of the best contestants</h2>
+    </section>
+
+    <!-- Imagen centrada -->
+    <section class="my-8 text-center">
+        <img src="./assets/images/ia-portada.jpg" alt="People eating" class="mx-auto rounded-lg shadow-md w-full max-w-6xl">
+    </section>
+
+    <!-- Sección de recetas como tarjetas -->
+    <section class="my-8">
+        <h1 class="text-2xl font-bold mb-2">The recipes</h1>
+        <h3 class="text-xl text-gray-600 mb-8">These are the recipes of the best contestants</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-2 w-full">Cajun seafood pasta</h3>
+                <div class="flex items-center">
+                    <img src="./assets/images/ponentes/p4.jpg" alt="John Cooper" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h4 class="text-lg font-medium">John Cooper</h4>
+                        <p>“This Cajun seafood pasta recipe is a hot one, but delicious!”</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-2 w-full">Cedar planked salmon</h3>
+                <div class="flex items-center">                    
+                    <img src="./assets/images/ponentes/p2.jpg" alt="Marta Alonso" class="w-16 h-16 rounded-full mr-4">
+                    <div>
+                        <h4 class="text-lg font-medium">Marta Alonso</h4>
+                        <p>“Salmon reaches its full potential when it's grilled on top of a cedar plank.”</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-xl font-semibold mb-2 w-full">Poulet au vinaigre</h3>                
+                <div class="flex items-center">
+                    <img src="./assets/images/ponentes/p5.jpg" alt="Mary Ann Stones" class="w-16 h-16 rounded-full mr-4">
+                    <div>                    
+                        <h4 class="text-lg font-medium">Mary Ann Stones</h4>
+                        <p>“Irresistible chicken, cooked with vinegar.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+  </main>
+
+    
+    <footer class="border-t border-gray-200 bg-white text-gray-800 py-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-6 gap-8 px-4">
+            <!-- Columna 1: Título + redes sociales -->
+            <div class="md:col-span-3">
+                <h2 class="text-2xl font-bold mb-4">Follow Cooking Contest</h2>
+                <div class="flex space-x-4 mt-4">
+                    
+                    <a href="#" class="text-gray-600 hover:text-black">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0022 12z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="text-gray-600 hover:text-black">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-.9 1.7-2.2 3.6-2.2 3.8 0 4.5 2.5 4.5 5.8V24h-4v-7.6c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4v7.7h-4V8z"/>
+                        </svg>
+                    </a>
+
+
+                    <a href="#" class="text-gray-600 hover:text-black">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M10 15l5.2-3L10 9v6zm12-3c0-2.2-.2-3.6-.5-4.5-.3-.9-1-1.6-1.9-1.9C18.6 5 12 5 12 5s-6.6 0-7.6.6c-.9.3-1.6 1-1.9 1.9C2.2 8.4 2 9.8 2 12s.2 3.6.5 4.5c.3.9 1 1.6 1.9 1.9C5.4 19 12 19 12 19s6.6 0 7.6-.6c.9-.3 1.6-1 1.9-1.9.3-.9.5-2.3.5-4.5z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#" class="text-gray-600 hover:text-black">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-2a1 1 0 100 2 1 1 0 000-2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Columna 2-4: Recetas -->
+            <div class="md:col-span-1">
+                <h5 class="font-bold mb-2">Recipes</h5>
+                <ul class="space-y-1">
+                    <li>Cajun seafood pasta</li>
+                    <li>Cedar planked salmon</li>
+                    <li>Poulet au vinaigre</li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1">
+                <h5 class="font-bold mb-2">Contestants</h5>
+                <ul class="space-y-1">
+                    <li>John Cooper</li>
+                    <li>Marta Alonso</li>
+                    <li>Mary Ann Stones</li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1">
+                <h5 class="font-bold mb-2">Contest editions</h5>
+                <ul class="space-y-1">
+                    <li>2024</li>
+                    <li>2023</li>
+                    <li>2022</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

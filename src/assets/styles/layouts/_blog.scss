@@ -1,7 +1,9 @@
-:is(h1, h2, h3, h4, h5, h6) {
+:is(.blog-ant) :is(h1, h2, h3, h4, h5, h6) {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
 }
+
+
 .parte{
     margin-left: 6lvh;
     margin-right: 6lvh;
